@@ -10,8 +10,8 @@ body{
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Domine', serif;
 }
-a,a:hover{
-	text-decoration:none;
+a,a:hover,a:link{
+	text-decoration: none;
 }
 
 /*project start */
@@ -56,47 +56,101 @@ a,a:hover{
 
 /* header bottom part start */
 .header-bottom-part1 {
+	width: 100%;
+	text-align: center;
     background-color: #84A1D2;
     padding: 56px;
+    transition: 1s;
+    
 }
 
-.header-bottom-part1 i{
-
-}
-.header-bottom-part1 h2{
-
-}
-.header-bottom-part1 p{
-
+.header-bottom-part1:hover {
+	
+  margin-top: -10px;
+    
 }
 
-.header-bottom-part2{
 
+.header-bottom-part1 .fa-rocket {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
 }
 
-.header-bottom-part2 i{
-
+.header-bottom-part1 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
-.header-bottom-part2 h2{
-
-}
-.header-bottom-part2 p{
-
-}
-
-.header-bottom-part3{
-
+.header-bottom-part1 p {
+    color: white;
+    font-size: 16px;
 }
 
-.header-bottom-part3 i{
-
+.header-bottom-part2 {
+	width: 100%;
+	text-align: center;
+    background-color: #F1C30F;
+    padding: 56px;
+    transition: 1s;
 }
-.header-bottom-part3 h2{
 
+.header-bottom-part2:hover {
+	
+  margin-top: -10px;
+    
 }
-.header-bottom-part3 p{
 
+.header-bottom-part2 .fa-book {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
 }
+
+.header-bottom-part2 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-bottom-part2 p {
+    color: white;
+    font-size: 16px;
+}
+
+.header-bottom-part3 {
+	width: 100%;
+	text-align: center;
+    background-color: #E57BFF;
+    padding: 56px;
+    transition: 1s;
+}
+
+.header-bottom-part3:hover {
+	
+  margin-top: -10px;
+    
+}
+
+.header-bottom-part3 .fa-futbol-o {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-bottom-part3 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-bottom-part3 p {
+    color: white;
+    font-size: 16px;
+}
+
+
 
 
 /* header bottom part end */
