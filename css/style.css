@@ -26,13 +26,15 @@ a,a:hover,a:link{
 
 .header .header-top{
 	width: 100%;
-	padding: 150px 0px 0px 0px;
+	padding: 125px 0px 0px 0px;
 	text-align: center;
 }
 
 .header .header-top img{
-	width: 150px;
-	margin-bottom: 20px;
+	width: 171px;
+    margin-bottom: 20px;
+    margin-left: -13px;
+
 }
 
 .header .header-top h1 {
@@ -43,7 +45,7 @@ a,a:hover,a:link{
 }
 
 .header .header-top h2 {
-	margin-bottom: 150px;
+	margin-bottom: 192px;
     font-size: 14px;
     line-height: 27px;
     letter-spacing: 3px;
@@ -149,15 +151,38 @@ a,a:hover,a:link{
     color: white;
     font-size: 16px;
 }
-
-
-
-
 /* header bottom part end */
 
 
 /* header section end  */
 
+
+/* thanks section start */
+.thanks{
+    background-color: #F6F6F6;
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.thanks .thanks-part{
+
+}
+
+.thanks .thanks-part h2{
+     font-size: 46px;
+    font-weight: unset;
+
+}
+
+.thanks .thanks-part p {
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: initial;
+    padding-bottom: 194px;
+}
+
+/* thanks section end */
 
 
 /*project end */
