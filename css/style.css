@@ -11,11 +11,98 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Domine', serif;
 }
 a,a:hover{
-	text-decoration: none;
+	text-decoration:none;
 }
 
 /*project start */
 
+/* header section start */
+
+.header{
+	width: 100%;
+	padding:80px 0px;
+}
+
+
+.header .header-top{
+	width: 100%;
+	padding: 150px 0px 0px 0px;
+	text-align: center;
+}
+
+.header .header-top img{
+	width: 150px;
+	margin-bottom: 20px;
+}
+
+.header .header-top h1 {
+    font-size: 31px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #484B59;
+}
+
+.header .header-top h2 {
+	margin-bottom: 150px;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 3px;
+    color: #484B59;
+}
+
+.header .header-top span {
+    color: #24CCEB;
+}
+
+/* header bottom part start */
+.header-bottom-part1 {
+    background-color: #84A1D2;
+    padding: 56px;
+}
+
+.header-bottom-part1 i{
+
+}
+.header-bottom-part1 h2{
+
+}
+.header-bottom-part1 p{
+
+}
+
+.header-bottom-part2{
+
+}
+
+.header-bottom-part2 i{
+
+}
+.header-bottom-part2 h2{
+
+}
+.header-bottom-part2 p{
+
+}
+
+.header-bottom-part3{
+
+}
+
+.header-bottom-part3 i{
+
+}
+.header-bottom-part3 h2{
+
+}
+.header-bottom-part3 p{
+
+}
+
+
+/* header bottom part end */
+
+
+/* header section end  */
 
 
 
