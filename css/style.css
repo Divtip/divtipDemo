@@ -176,8 +176,8 @@ a,a:hover,a:link{
 }
 
 .thanks .thanks-part p {
-    font-size: 28px;
-    letter-spacing: 3px;
+    font-size: 26px;
+    letter-spacing: 2px;
     font-weight: initial;
     padding-bottom: 194px;
 }
@@ -186,3 +186,386 @@ a,a:hover,a:link{
 
 
 /*project end */
+
+/*=============================================
+===============================================
+============= Responsive style  start =========
+===============================================
+===============================================*/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  /* header section start */
+
+.header{
+	width: 100%;
+	padding:80px 0px;
+}
+
+
+.header .header-top{
+	width: 100%;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.header .header-top img{
+	width: 171px;
+    margin-bottom: 20px;
+    margin-left: -13px;
+
+}
+
+.header .header-top h1 {
+    font-size: 31px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #484B59;
+}
+
+.header .header-top h2 {
+	margin-bottom: 192px;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 3px;
+    color: #484B59;
+}
+
+.header .header-top span {
+    color: #24CCEB;
+}
+
+/* header bottom part start */
+.header-bottom-part1 {
+	width: 100%;
+	text-align: center;
+    background-color: #84A1D2;
+    padding: 42px 10px 17px 10px;
+    transition: 1s;
+    
+}
+
+.header-bottom-part1:hover {
+	
+  margin-top: -10px;
+    
+}
+
+
+.header-bottom-part1 .fa-rocket {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-bottom-part1 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-bottom-part1 p {
+    color: white;
+    font-size: 16px;
+}
+
+.header-bottom-part2 {
+	width: 100%;
+	text-align: center;
+    background-color: #F1C30F;
+    padding: 42px 10px 17px 10px;
+    transition: 1s;
+}
+
+.header-bottom-part2:hover {
+	
+  margin-top: -10px;
+    
+}
+
+.header-bottom-part2 .fa-book {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-bottom-part2 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-bottom-part2 p {
+    color: white;
+    font-size: 16px;
+}
+
+.header-bottom-part3 {
+	width: 100%;
+	text-align: center;
+    background-color: #E57BFF;
+    padding: 42px 10px 17px 10px;
+    transition: 1s;
+}
+
+.header-bottom-part3:hover {
+	
+  margin-top: -10px;
+    
+}
+
+.header-bottom-part3 .fa-futbol-o {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-bottom-part3 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-bottom-part3 p {
+    color: white;
+    font-size: 15px;
+}
+/* header bottom part end */
+
+
+/* header section end  */
+
+
+/* thanks section start */
+.thanks{
+    background-color: #F6F6F6;
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.thanks .thanks-part{
+
+}
+
+.thanks .thanks-part h2{
+     font-size: 46px;
+    font-weight: unset;
+
+}
+
+.thanks .thanks-part p {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: initial;
+    padding-bottom: 194px;
+}
+
+/* thanks section end */
+
+  
+}
+
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  /* header section start */
+
+.header{
+	width: 100%;
+	padding:80px 0px;
+}
+
+
+
+.header .header-top {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.header .header-top img{
+	width: 171px;
+    margin-bottom: 20px;
+    margin-left: -13px;
+
+}
+
+.header .header-top h1 {
+    font-size: 31px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #484B59;
+}
+
+.header .header-top h2 {
+    margin-bottom: 126px;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 3px;
+    color: #484B59;
+    font-weight: 900;
+}
+
+.header .header-top span {
+    color: #24CCEB;
+}
+
+/* header bottom part start */
+.header-bottom-part1 {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #84A1D2;
+    padding: 56px;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+
+.header-bottom-part1:hover {
+	
+  margin-top: -10px;
+    
+}
+
+
+.header-bottom-part1 .fa-rocket {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-bottom-part1 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-bottom-part1 p {
+    color: white;
+    font-size: 16px;
+}
+
+.header-bottom-part2 {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #F1C30F;
+    padding: 56px;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+
+.header-bottom-part2:hover {
+	
+  margin-top: -10px;
+    
+}
+
+.header-bottom-part2 .fa-book {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-bottom-part2 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-bottom-part2 p {
+    color: white;
+    font-size: 16px;
+}
+
+.header-bottom-part3 {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #E57BFF;
+    padding: 56px;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+
+.header-bottom-part3:hover {
+	
+  margin-top: -10px;
+    
+}
+
+.header-bottom-part3 .fa-futbol-o {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-bottom-part3 h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header-bottom-part3 p {
+    color: white;
+    font-size: 16px;
+}
+/* header bottom part end */
+
+
+/* header section end  */
+
+
+/* thanks section start */
+.thanks{
+    background-color: #F6F6F6;
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.thanks .thanks-part{
+
+}
+
+.thanks .thanks-part h2{
+     font-size: 41px;
+    font-weight: unset;
+
+}
+
+.thanks .thanks-part p {
+        font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: initial;
+    padding-bottom: 194px;
+    margin-top: 5px;
+}
+
+/* thanks section end */
+  
+}
+
+
+
+/*=============================================
+===============================================
+============= Responsive style  start =========
+===============================================
+===============================================*/
